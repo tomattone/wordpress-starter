@@ -3,3 +3,5 @@ node_modules
 .DS_Store
 wp-content/uploads
 wp-content/themes/twentyt*
+wp-content/plugins/hello.php
+wp-content/plugins/akismet

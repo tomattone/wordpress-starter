@@ -1,0 +1,11 @@
+/*
+Theme Name: sitename
+Author: Armando Tomazzoni Jr.
+Author URI: https://tomazzoni.net
+Description: Theme for sitename website
+Version: 1.0
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

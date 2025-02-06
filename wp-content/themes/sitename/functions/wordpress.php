@@ -399,7 +399,7 @@ function reset_role_wpse_82378($role) {
  */
 add_filter('admin_footer_text', 'custom_admin_footer');
 function custom_admin_footer() {
-  echo '';
+  echo '<div class="text" style="transition:all .2s ease;opacity:.7;display:flex;align-items:flex-start;justify-content:center;gap:4px">Site feito com 🧡 por <a target="_blank" href="https://tomazzoni.net?utm_source=client&amp;utm_medium=wordpress&amp;utm_campaign=rodoprima"><img src="https://tomazzoni.net/img/logo-horizontal.svg" height="18" style="position:relative;top:3.5px"></a></div>';
 }
 
 /**

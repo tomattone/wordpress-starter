@@ -243,6 +243,16 @@ function custom_admin_footer() {
 }
 
 /**
+ * Remove versão do footer
+ * @author Armando Tomazzoni
+ */
+function footer_shh() {
+  remove_filter('update_footer', 'core_update_footer');
+}
+
+add_action('admin_menu', 'footer_shh');
+
+/**
  * Personaliza o tamanho do length do excerpt
  * @author Armando Tomazzoni
  */

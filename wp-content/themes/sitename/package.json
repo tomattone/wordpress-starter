@@ -4,7 +4,7 @@
   "displayName": "sitename",
   "description": "Theme for sitename website",
   "scripts": {
-    "dev": "parcel -p 80 assets/src/index.js --dist-dir assets/dist",
+    "dev": "parcel watch assets/src/index.js --dist-dir assets/dist",
     "build": "parcel build assets/src/index.js --dist-dir assets/dist"
   },
   "author": {
@@ -13,11 +13,10 @@
     "url": "https://tomazzoni.net"
   },
   "license": "MIT",
-  "devDependencies": {
-    "@iconify-json/heroicons": "^1.1.22",
-    "@iconify/tailwind": "^1.1.1",
-    "@tailwindcss/typography": "^0.5.13",
-    "parcel": "^2.12.0",
-    "tailwindcss": "^3.4.4"
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.1",
+    "@tailwindcss/postcss": "^4.1.1",
+    "parcel": "^2.14.4",
+    "tailwindcss": "^4.1.1"
   }
 }

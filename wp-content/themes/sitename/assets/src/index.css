@@ -1,11 +1,11 @@
-/*
-Theme Name: sitename
-Author: Armando Tomazzoni Jr.
-Author URI: https://tomazzoni.net
-Description: Theme for sitename website
-Version: 1.0
-*/
+@import './fonts.css';
+@import 'tailwindcss';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme {
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --font-*: initial;
+  --font-sans: 'Barlow', sans-serif;
+}

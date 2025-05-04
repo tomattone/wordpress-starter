@@ -31,6 +31,15 @@ add_filter('use_block_editor_for_post', '__return_false');
 add_filter('show_admin_bar', '__return_false');
 
 /**
+ * Remove o estilo padrão do Gutenberg
+ * @author Armando Tomazzoni
+ */
+add_action('wp_print_styles', 'wps_deregister_styles', 100);
+function wps_deregister_styles() {
+  wp_dequeue_style('wp-block-library');
+}
+
+/**
  * Remove alerta de atualizar wordpres
  * @author Armando Tomazzoni
  */
